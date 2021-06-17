@@ -24,8 +24,8 @@ int main()
            if (b != 0)
            {
 
-               result = a / b;                     
-
+                                 
+               result = a / b;
                cout << "\n\n a /  b = " << result;
            }
           else
@@ -39,7 +39,7 @@ int main()
     }
 
 
-    
+  line();
    
 
     cout << "\n\n";
@@ -47,3 +47,14 @@ int main()
     return 0;
 }
 
+void line()
+{
+
+    cout << "\n ";
+    for (int i = 0; i < 40; i++)
+    {
+
+        cout << "*";
+    }
+    cout << "\n ";
+}
