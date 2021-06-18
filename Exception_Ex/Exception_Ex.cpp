@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-
+void line();
 int main()
 {
     int a, b;
@@ -18,6 +18,8 @@ int main()
 
     cout << " Enter b value : ";
     cin >> b;
+
+    line(); // calling line again
 
   try{
     
