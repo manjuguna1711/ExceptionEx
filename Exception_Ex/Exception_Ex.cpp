@@ -50,6 +50,9 @@ int main()
     return 0;
 }
 
+
+//line function without arguments 
+
 void line()
 {
 
