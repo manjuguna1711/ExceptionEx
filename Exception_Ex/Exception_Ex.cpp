@@ -5,6 +5,7 @@
 using namespace std;
 
 void line();
+void line(char);
 int main()
 {
     int a, b;
@@ -41,7 +42,7 @@ int main()
     }
 
 
-  line();
+  line('z');
    
 
     cout << "\n\n";
@@ -59,4 +60,16 @@ void line()
         cout << "*";
     }
     cout << "\n ";
+}
+
+void line(char c)
+{
+
+	cout << "\n ";
+	for (int i = 0; i < 40; i++)
+	{
+
+		cout << c;
+	}
+	cout << "\n ";
 }
