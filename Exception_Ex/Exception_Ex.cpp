@@ -4,8 +4,11 @@
 #include <iostream>
 using namespace std;
 
+//function prototype
+
 void line();
 void line(char);
+
 int main()
 {
     int a, b;
